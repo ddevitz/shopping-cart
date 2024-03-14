@@ -1,0 +1,17 @@
+.header{
+  background-color: #fff159;
+  position: fixed;
+
+  width: 100%;
+
+  z-index: 1;
+}
+
+.header > div{
+  /* adicionar um '>' delimita a div filha do Header*/
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
